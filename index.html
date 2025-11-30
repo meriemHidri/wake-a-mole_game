@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="images/sdg.png" id="img">
+    <h1>Whack The Mole</h1>
+</header>
+
+<hr>
+
+<div class="difficulty-box">
+    <label class="difficulty-title">Difficulty:</label>
+
+    <label class="difficulty-option">
+        <input type="radio" name="level" value="1200" checked>
+        Easy
+    </label>
+
+    <label class="difficulty-option">
+        <input type="radio" name="level" value="900">
+        Medium
+    </label>
+
+    <label class="difficulty-option">
+        <input type="radio" name="level" value="600">
+        Hard
+    </label>
+</div>
+
+<button id="start">Start Game</button>
+<button id="stop" disabled>Stop</button>
+
+<h2>Time left: <span id="timeLeft">30</span> s</h2>
+<h2>Score: <span id="score">0</span></h2>
+
+<div class="game">
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+</div>
+
+<div id="gameOverBox" class="hide">
+    <h2 id="gameOver">Game Over!</h2>
+    <p id="finalScore"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
