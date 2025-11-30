@@ -196,7 +196,7 @@ button:hover {
   }
 
   .game {
-    width: 260px; /* أصغر باش يدخل في الشاشات الصغيرة */
+    width: 260px; 
     gap: 10px;
   }
 
@@ -211,7 +211,6 @@ button:hover {
     bottom: -70px;
   }
 
-  /* نخلي الأزرار أكبر وأسهل للضغط */
   button {
     width: calc(50% - 12px);
     margin: 6px 6px;
@@ -220,7 +219,7 @@ button:hover {
     border-radius: var(--btn-radius);
   }
 
-  /* Game over box أصغر */
+
   #gameOverBox {
     width: 220px;
     padding: 16px;
