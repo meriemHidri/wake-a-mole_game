@@ -216,7 +216,7 @@ button:hover {
     margin: 6px 6px;
     font-size: 16px;
     padding: 12px 10px;
-    border-radius: var(--btn-radius);
+    border-radius: 15%;
   }
 
 
